@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>RSVP Reading</title>
+    </head>
+    <body>
+        <div class="dark-mode-items">
+            <label>Dark Mode: </label>
+            <input id="darkModeButton" class="dark-mode-button" type="checkbox"></input>
+        </div>
+
+        <button class="back-button" onclick="window.location.href='../index.html'"><</button>
+        <h1 id="rsvpText" class="rsvp-text">Hello!</h1>
+        <div class="center-div">
+            <input type="range" min="1" max="1000" value="300" id="wpmInput" class="range-input">
+        </div>
+
+        <div class="center-div">
+                <p style="font-weight: 500;">WPM: <span id="sliderValue"></span></p>
+        </div>
+    
+        <br>
+        <textarea id="textInput" class="user-text-input" placeholder="Enter your text here..."></textarea>
+        <br>
+        <button id="textSubmit" class="start-button">Start</button>
+        <br>
+        <div class="modifier-buttons">
+            <button id="goLeft" class="left-button"><</button>
+            <button id="pauseSubmit" class="pause-button">Pause</button>
+            <button id="goRight" class="right-button">></button>
+        </div>
+        <br><br><br><br><br>
+
+        <script src="main.js"></script> <script src="darkMode.js"></script> 
+    </body>
+</html>

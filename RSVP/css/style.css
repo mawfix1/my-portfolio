@@ -1,0 +1,88 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dark-mode{
+    background-color: black;
+    filter: invert(1)
+}
+
+.dark-mode-button{
+    min-width: 50px;
+    min-height: 50px;
+    accent-color: black;
+}
+
+.back-button{
+    min-width: 50px;
+    min-height: 50px;
+    accent-color: black;
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.dark-mode-items{
+    display: flex;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.rsvp-text {
+    text-align: center; 
+    font-size: 1000%;
+}
+
+.start-button {
+    display: block; 
+    margin: 0 auto; 
+    width: 25vw; 
+    font-weight: 1000;
+}
+
+.modifier-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pause-button { 
+    width: 25vw; 
+    font-weight: 1000;
+}
+
+.left-button{
+    width: 30px;
+    font-weight: 1000;
+}
+
+.right-button{
+    width: 30px;
+    font-weight: 1000;
+}
+
+.user-text-input {
+    width: 50vw; 
+    height: 20vh; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+}
+
+.range-input{
+    accent-color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
